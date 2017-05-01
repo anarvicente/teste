@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'loja',
-
+    'servicos',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -77,6 +77,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 
+
 #Para usar o postgres
 DATABASES = {
     'default': {
@@ -92,6 +93,7 @@ DATABASES = {
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
+
 
 LANGUAGE_CODE = 'pt-br'
 
