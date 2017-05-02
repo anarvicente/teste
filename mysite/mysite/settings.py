@@ -79,16 +79,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 #Para usar o postgres
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'altuscaldus',
-        'USER': 'postgres',
-        'PASSWORD': 'ifes2017',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+
 
 
 # Internationalization
