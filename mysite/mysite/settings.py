@@ -30,16 +30,6 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = (
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'loja',
-    'servicos',
-)
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -79,16 +69,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 #Para usar o postgres
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'altuscaldus',
-        'USER': 'postgres',
-        'PASSWORD': 'ifes2017',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+
 
 
 # Internationalization
